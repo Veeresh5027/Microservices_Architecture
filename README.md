@@ -8,3 +8,15 @@
 **Microservices_Architecture** is a distributed system designed for a Hotel Rating platform. It demonstrates the core patterns of microservices, including service discovery, inter-service communication, and centralized configuration management using the **Spring Cloud** ecosystem.
 
 ---
+
+## 🏗️ System Architecture & Design Patterns
+
+This project implements the following microservices patterns:
+
+* **Service Discovery (Netflix Eureka):** All microservices register themselves with the `ServiceRegistry` for dynamic address resolution.
+* **API Gateway:** A single entry point for all client requests, providing unified routing to underlying services.
+* **Externalized Configuration:** Centralized management of application properties across environments using `ConfigServer`.
+* **Inter-Service Communication:** Implemented using **Feign Client** and **RestTemplate** for synchronous communication.
+* **Resilience (Optional/Future):** Structure ready for Circuit Breaker implementation (Resilience4j).
+
+---
