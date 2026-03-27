@@ -20,3 +20,16 @@ This project implements the following microservices patterns:
 * **Resilience (Optional/Future):** Structure ready for Circuit Breaker implementation (Resilience4j).
 
 ---
+
+## 🛠️ Microservices Modules
+
+| Service | Responsibility |
+| :--- | :--- |
+| **ServiceRegistry** | Eureka Server for service registration and discovery. |
+| **ApiGateway** | Routes requests and handles cross-cutting concerns. |
+| **ConfigServer** | Provides centralized configuration from a Git or local file system. |
+| **UserService** | Manages user profiles and aggregates ratings/hotel info. |
+| **HotelService** | Manages hotel information and inventory. |
+| **RatingService** | Handles user ratings and feedback for specific hotels. |
+
+---
